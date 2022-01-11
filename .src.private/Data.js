@@ -1,6 +1,9 @@
 export const Data = {
   Towers: {
-    Scout: "Scout"
+    Scout: {
+      Cost: 200,
+      Name: "Scout"
+    }
   },
   Functions: {},
   Stats: {},

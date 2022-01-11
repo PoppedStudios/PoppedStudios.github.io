@@ -1,7 +1,8 @@
 import { Data } from './.src.private/Data.js';
+import { Button } from './.src.private/NewTowerButton.js';
 
 function Main() {
-  console.log(Data.Towers.Scout);
+  Button("Scout");
 }
 
 Main();
