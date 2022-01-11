@@ -1,0 +1,23 @@
+:root {
+  --enough: #308d46;
+  --notEnough: #ca4646;
+}
+
+.TowerButton {
+  border: none;
+  background-color: var(--enough);
+  color: white;
+  cursor: pointer;
+}
+
+.TowerButton--placing {
+  border: none;
+  background-color: var(--enough);
+  color: white;
+  cursor: not-allowed;
+}
+
+.TowerButton:disabled {
+  background-color: var(--notEnough);
+  cursor: not-allowed;
+}
